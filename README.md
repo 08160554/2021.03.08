@@ -1,7 +1,8 @@
 # 2021.03.08
-
+==========
 WEEK03-1
 ------------
+```C++
 #include <stdio.h>
 int main(int argc,char **argv)
 {
@@ -11,10 +12,12 @@ int main(int argc,char **argv)
         printf("argv[%d]是:%s\n",i,argv[i]);
     }
 }
+```
 ------------
 
 WEEK03-2
 ----------
+```C++
 #include <GL/glut.h>
 
 static void display(void)
@@ -42,14 +45,14 @@ int main(int argc, char *argv[])
 
     glutMainLoop();
 
-
+```
 ------------
 
 
 WEEK03-2
 
 ------------
-
+```C++
 #include <GL/glut.h>
 void display()
 {
@@ -77,3 +80,4 @@ int main(int argc, char **argv)
 
     glutMainLoop();
 }
+```
