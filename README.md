@@ -15,7 +15,7 @@ int main(int argc,char **argv)
     }
 }
 ```
-------------
+
 
 WEEK03-2
 ----------
@@ -48,12 +48,12 @@ int main(int argc, char *argv[])
     glutMainLoop();
 
 ```
-------------
+
 
 
 WEEK03-2
-
 ------------
+
 ```C++
 #include <GL/glut.h>
 void display()
